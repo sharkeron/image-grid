@@ -7,15 +7,18 @@ body {
     background: #303030;
 }
 
-.container{
-    margin: 70px calc((100% - 1200px) / 2);
-}
-
 .grid {
+    margin: 50px auto;
     box-sizing: border-box;
-    width: 1200px;
+    max-width: 1200px;
     height: 800px;
     background: #fff;
+}
+
+.grid img {
+   width: 100%;
+   height: 100%;
+   padding: 10px;
 }
 
 .block{
@@ -44,10 +47,4 @@ body {
 
 .row-4 {
     height: 135px;
-}
-
- .grid img {
-    width: 100%;
-    height: 100%;
-    padding: 10px;
 }
